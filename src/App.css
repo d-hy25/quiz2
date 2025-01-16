@@ -1,0 +1,120 @@
+
+.login{
+  position: relative;
+  width: 360px;
+  height: 80vh;
+}
+.login > h3{
+  text-align: center;
+  margin: 10px;
+}
+.log-one{
+  margin: 170px 0 0 50px;
+  font-size: 18px;
+}
+.log-two{
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #001aff;
+}
+.log-twot{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.log-twot > input{
+  width: 200px;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0;
+}
+.login > button,
+.results > button{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  line-height: 25px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #222;
+  cursor: pointer;
+}
+.login > button:hover,
+.results > button:hover
+{
+  background-color: #222;
+  color: #fff;
+  box-shadow: 0 2px 5px gray;
+}
+/* result */
+.results{
+  text-align: center;
+  margin-top: 60px;
+}
+.circle > h2{
+margin-top: 30px;
+}
+.circle > h1{
+  margin-top: 50px;
+  font-size: 5rem;
+  display: inline-block;
+  color: #001aff;
+}
+.circle > span{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 10px;
+  color: #001aff;
+}
+.result-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.circle{
+  width: 250px;
+  height: 250px;
+  margin: 50px 0 0 55px;
+  border: 2px solid #001aff;
+  border-radius: 50%;
+}
+/*퀴즈*/
+.quiz-page > p:nth-of-type(1){
+  margin: 30px 0 20px 0;
+}
+.quiz-page > p:nth-of-type(2){
+  margin-bottom: 150px;
+}
+.quiz-page > p:nth-of-type(1),
+.quiz-page > p:nth-of-type(2){
+  margin-left: 30px;
+}
+.quiz-page > p:nth-of-type(3){
+  text-align: center;
+}
+.choices > button{
+  display: block;
+  width: 230px;
+  height: 45px;
+  margin: 30px auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  border: 1px solid #222;
+  background-color: #eee;
+  cursor: pointer;
+}
+.choices > button:hover{
+  background-color: #001aff;
+  border: 1px solid #001aff;
+  color: #fff;
+  box-shadow: 0 5px 5px gray;
+}
