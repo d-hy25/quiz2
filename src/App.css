@@ -77,7 +77,7 @@ margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  padding-top: 100px;
 }
 .circle{
   width: 250px;
@@ -88,7 +88,7 @@ margin-top: 30px;
 }
 /*퀴즈*/
 .quiz-page > p:nth-of-type(1){
-  margin: 30px 0 20px 0;
+  padding: 30px 0 20px 0;
 }
 .quiz-page > p:nth-of-type(2){
   margin-bottom: 150px;
